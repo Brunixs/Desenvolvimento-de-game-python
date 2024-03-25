@@ -20,7 +20,11 @@ def game():
     print('-=' * 50)
 
     # Lista de Palavras 
-    palavras = ['carro', 'moto', 'uva', 'peixe', 'humano', 'livros', 'banana', 'macaco', 'escada', 'sol', 'lua', 'refrigerante', 'nave', 'gato', 'cachorro', 'hamster']
+    palavras = [
+    "maca", "banana", "laranja", "abacaxi", "manga", "uva", "morango", "kiwi", "melancia", "pessego",
+    "cadeira", "mesa", "caneta", "livro", "computador", "telefone", "relogio", "lampada", "garrafa", "chave",
+    "carro", "casa", "arvore", "rio", "praia", "montanha", "cidade", "pessoa", "animal", "flor"
+]
 
     # Escolhendo uma palavra aleatoria
     palavra = random.choice(palavras)
