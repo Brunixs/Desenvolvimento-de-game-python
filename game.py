@@ -54,7 +54,18 @@ def game():
             chances -= 1
             letra_errada.append(tentativa)
 
-            
+        if '_' not in letra_descobertas:
+            print('Você Venceu, PARABENS!!!\nA Palavra era: ', palavra)
+            break
+    if '_' in letra_descobertas:
+        print('Você Perdeu, Tente Novamente!\n A palavra era: ', palavra)        
+
+# bloco main
+if __name__ == "__main__":
+    game()
+
+
+
 
 
 
