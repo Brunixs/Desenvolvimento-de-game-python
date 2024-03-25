@@ -38,7 +38,7 @@ def game():
     while chances > 0:
         print(' '.join(letra_descobertas))
         print("Chances Restantes:", chances)
-        print("Letras Errads:", " ".join(letra_errada))
+        print("Letras Erradas:", " ".join(letra_errada))
 
         # tentativa
         tentativa = input("Digite uma letra: ").lower()
@@ -63,11 +63,3 @@ def game():
 # bloco main
 if __name__ == "__main__":
     game()
-
-
-
-
-
-
-
-game()
